@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:whitesmoke;
+}
+.datatable-container{
+    padding: 50px;
+    width: 1400px;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+.datatable-container .datatable{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+.datatable-container .datatable,.datatable-container .datatable th,
+.datatable-container .datatable td{
+    padding: 10px 10px;
+    border-bottom: 1px solid springgreen;
+}
+.datatable-container .datatable td a img{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    max-width: 50px;
+    
+}
+.datatable-container .datatable th{
+    font-weight: bolder;
+    text-align: left;
+    border-bottom: 1px solid springgreen;
+    
+}
+
+.datatable-container .datatable tbody tr:nth-child(even){
+    background-color: cadetblue;
+}
+.datatable-container .datatable tbody tr:nth-child(odd){
+    background-color:cornflowerblue;
+}
+
+.datatable-container .datatable tbody tr:hover{
+    background-color:turquoise;
+}
+
+.datatable-container .datatable tbody tr .away::after{
+    content:'Libre';
+    color:seagreen;
+}
+.datatable-container .datatable tbody tr .deshabilitado::after{
+    content:'Ocupado';
+    color:tomato;
+}
+
+.datatable-container .footer-tools{
+    padding: 12px 12px;
+    display: flex;
+    align-items: baseline;
+
+}
+
+.datatable-container .footer-tools .list-items{
+    width: 50%;
+}
+
+.datatable-container .footer-tools .pages{
+    margin-left: auto;
+    margin-right: 0;
+    width: 100%;
+    height: 50%;
+}
+
+.datatable-container .footer-tools .pages ul{
+    padding: 0;
+    margin:0;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+
+.datatable-container .footer-tools .pages ul li{
+    display: inline-block;
+}
+
+.datatable-container .footer-tools .pages ul li button{
+    width: 100%;
+    box-sizing: border-box;
+    border:0;
+    border-radius: 3px;
+    background:transparent;
+    cursor: pointer;
+    padding: 12px 12px;
+}
+
+.datatable-container .footer-tools .pages ul li button:hover{
+    background-color: teal;
+}
+
+.datatable-container .footer-tools .pages ul li span.activate{
+    background-color: teal;
+    border-radius: 3px;
+
+}

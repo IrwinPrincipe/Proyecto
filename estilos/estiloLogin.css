@@ -1,0 +1,84 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image:url(/Horario_INF_SOO/assets/img/123.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+.boxLogin{
+    width: 400px;
+    height: 600px;
+    background-color: #1e2833;
+    color:#fff;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    box-sizing: border-box;
+    padding: 30px 40px;
+    border-radius: 12px;
+}
+.boxLogin .logo{
+    width: 128px;
+    height: 128px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxLogin h1{
+    padding: 0 0 15px;
+    text-align: center;
+    font-weight: 500;
+}
+.boxLogin label{
+    font-weight: bold;
+    display: block;
+}
+.boxLogin input{
+    width: 100%;
+    margin-bottom: 22px;
+}
+.boxLogin input[type="text"],
+.boxLogin input[type="password"] {
+    border:none;
+    border-bottom: 1.5px solid thistle;
+    background: transparent;
+    outline: none;
+    font-size: 100;
+    color:azure;
+}
+
+.boxLogin a{
+    line-height: 25px;
+    text-decoration: none;
+    color:darkgray;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.boxLogin input[type="submit"]{
+    background-color:linear;
+    border-radius:10px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: #048f83;
+    border-color:#048f83;
+    color:beige;
+    font-size: 20px;
+}
+
+.boxLogin a:hover{
+    color:blanchedalmond;
+}

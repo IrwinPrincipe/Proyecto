@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Login</title>
+    <link rel="stylesheet" href="../Mejorado/estilos/estiloLogin.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet"> 
+    
+</head>
+<body>
+    <div class="boxLogin">
+            <img class="logo" src="../assets/img/user.png" alt="imagenLogo">
+        <h1>BIENVENIDO AL SISTEMA</h1>
+        <form action="validar_login.php" method="post">
+        <label for="user" id="user">Email</label>
+        <input id="user" type="text" name='email' placeholder="Correo electrónico" >
+        <label for="">Contraseña</label>
+        <input type="password" name='password' placeholder="Contraseña" >
+        <input type="submit" value="Iniciar Sesión">
+        </form>
+        <a href="">Olvidaste tu Correo o Contraseña</a>
+        
+    </div>
+    </body>
+</html>
